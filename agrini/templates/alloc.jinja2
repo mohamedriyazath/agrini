@@ -1,0 +1,31 @@
+<html>
+  <title>Login</title>
+  <body bgcolor="#FFFACD">
+
+  <form name="MY Form" action="/alloc" method="post">
+  House_no<input type="text" id="flat_id" name="flat_id">
+  <br>
+  Allocate By<input type="text" id="aloc_by" name="aloc_by">
+  <br>
+  </body>
+    <h2>Status</h2>
+       <fieldset>
+          <p>
+             <select id = "status" name="status">
+               <option value = "Logged">Logged</option>
+               <option value = "Reviewed">Reviewed</option>
+               <option value = "Assigned">Assigned</option>
+             </select>
+          </p>
+       </fieldset>
+  		<br><br>
+
+        <h3>Replay to issue raiser</h3><center>
+  		<textarea name="replay" id="replay"  rows="5" cols="30" ></textarea>
+  		<tr><td>
+  		<center>
+		<input type=submit name="admin" value=Allocate>
+		</input>
+
+    </form>
+</html>
